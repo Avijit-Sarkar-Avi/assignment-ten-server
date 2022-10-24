@@ -6,6 +6,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 
 const sideNavData = require('./Data/sidenav.json');
+const courseDetails = require('./Data/courses.json')
 
 app.get('/', (req, res) => {
     res.send('Our Courses');
@@ -13,6 +14,12 @@ app.get('/', (req, res) => {
 
 app.get('/sidenav', (req, res) => {
     res.send(sideNavData)
+});
+
+app.get('/detail/:id', (req, res) => {
+    const id = req.params.id;
+    const sideNavDetails = courseDetails.filter(course => course.id === id);
+    res.send(sideNavDetails);
 });
 
 app.listen(port, () => {

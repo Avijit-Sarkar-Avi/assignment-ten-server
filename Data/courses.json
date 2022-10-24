@@ -1,50 +1,50 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "name": "C",
         "details": "C is an imperative, procedural language in the ALGOL tradition. It has a static type system. In C, all executable code is contained within subroutines (also called functions, though not in the sense of functional programming). Function parameters are passed by value, although arrays are passed as pointers, i.e. the address of the first item in the array. Pass-by-reference is simulated in C by explicitly passing pointers to the thing being referenced.",
         "price": 3000,
-        "time": 2,
+        "duration": 2,
         "image": "https://www.ictacademy.in/pages/assets/base/img/content/stock/cprogram.jpg"
     },
     {
-        "id": 2,
+        "id": "2",
         "name": "C++",
         "details": "In this course, we will learn the mechanics of editing and compiling programs in C++. We will begin with a discussion of the essential elements of C++ programming: variables, loops, expressions, functions, and string class. Then, we will cover the basics of object-oriented programming: classes, inheritance, templates, exceptions, and file manipulation. We will then review function and class templates and the classes that perform output and input of characters to/from files. This course will also cover namespaces, exception handling, and preprocessor directives. In the last part of the course, we will learn some slightly more sophisticated programming techniques that deal with data structures such as linked lists and binary trees.",
         "price": 3500,
-        "time": 4,
+        "duration": 4,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5UjltwaUtSBTqkWZgGdTs6O-d00x3PyBrPhm6EyYFoRfZZERj7f0wcKaYUit-zp0-NM4&usqp=CAU"
     },
     {
-        "id": 3,
+        "id": "3",
         "name": "Java",
         "details": "Java is a powerful general-purpose programming language. It is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages.",
         "price": 2500,
-        "time": 2,
+        "duration": 2,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJiGdss5Fo2JDPK6oRScbTI1Oqsa73J7micSDivoGGDdVBBcxTuQoubaHyI6P3NikW1GA&usqp=CAU"
     },
     {
-        "id": 4,
+        "id": "4",
         "name": "Python",
         "details": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.",
         "price": 5000,
-        "time": 6,
+        "duration": 6,
         "image": "http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/06/Python-Programming-Edureka.png"
     },
     {
-        "id": 5,
+        "id": "5",
         "name": "PHP",
         "details": "PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or as a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code which may be any type of data, such as generated HTML or binary image data would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist which can be employed to orchestrate or facilitate the generation of that response. Additionally, PHP can be used for many programming tasks outside the web context, such as standalone graphical applications and robotic drone control. PHP code can also be directly executed from the command line.",
         "price": 4000,
-        "time": 3,
+        "duration": 3,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyalS2gyEY54bEUdzJWqCDClp6vKNjdG6Y6SLfsNLeZs6lP8I5B6tU2IH4f7R3h0ByPyU&usqp=CAU"
     },
     {
-        "id": 6,
+        "id": "6",
         "name": "R",
         "details": "R is a programming language for statistical computing and graphics supported by the R Core Team and the R Foundation for Statistical Computing. Created by statisticians Ross Ihaka and Robert Gentleman, R is used among data miners, bioinformaticians and statisticians for data analysis and developing statistical software. Users have created packages to augment the functions of the R language.",
         "price": 4500,
-        "time": 2,
+        "duration": 2,
         "image": "https://cdn.educba.com/academy/wp-content/uploads/2016/10/R-Programming-Language-2.jpg"
     }
 ]
