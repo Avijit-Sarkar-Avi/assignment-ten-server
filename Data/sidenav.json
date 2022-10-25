@@ -1,26 +1,26 @@
 [
     {
-        "id": "01",
+        "id": "1",
         "name": "Learn C"
     },
     {
-        "id": "02",
+        "id": "2",
         "name": "Learn C++"
     },
     {
-        "id": "03",
+        "id": "3",
         "name": "Learn Java"
     },
     {
-        "id": "04",
+        "id": "4",
         "name": "Learn Python"
     },
     {
-        "id": "05",
+        "id": "5",
         "name": "Learn PHP"
     },
     {
-        "id": "06",
+        "id": "6",
         "name": "Learn R"
     }
 ]

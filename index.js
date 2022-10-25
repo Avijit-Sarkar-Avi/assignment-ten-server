@@ -16,10 +16,20 @@ app.get('/sidenav', (req, res) => {
     res.send(sideNavData)
 });
 
+app.get('/detail', (req, res) => {
+    res.send(courseDetails)
+});
+
 app.get('/detail/:id', (req, res) => {
     const id = req.params.id;
     const sideNavDetails = courseDetails.filter(course => course.id === id);
     res.send(sideNavDetails);
+});
+
+app.get('/details/:id', (req, res) => {
+    const id = req.params.id;
+    const selectedCourse = courseDetails.find(course => course.id === id);
+    res.send(selectedCourse)
 });
 
 app.listen(port, () => {
